@@ -10,7 +10,7 @@ Now you can use blade templating easily in your plain php projects.
 Install the follow package and you are good to go:-
 
 ```bash
-composer require maratib/just-blade
+composer require wp-theme/blade
 ```
 
 ### Howto use it
