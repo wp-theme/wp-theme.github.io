@@ -29,9 +29,12 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 
 ## Our projects
 
-<CardGrid stagger>
+<CardGrid>
   <Card title="Just-Blade" icon="pencil" link="/just-blade/">
   This will help you to use blade templating easily in your plain php projects.
+
+  - Install the follow package and you are good to go:-
+
     ``` composer require maratib/just-blade ```   
 
     [Read more ->](/just-blade/)
@@ -40,6 +43,9 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 
   <Card title="WP-Blade" icon="add-document" link="/wp-blade/">
   This will help you to create a WordPress theme with Blade templating engine.
+
+  - Run the following command to create a new blade template theme:-
+
     ``` composer create-project maratib/wp-blade my-theme ```   
 
     [Read more ->](/wp-blade/)
@@ -48,14 +54,19 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 
   <Card title="WP-Theme" icon="add-document" link="/wp-theme/">
   This will help you to create a WordPress theme with FSE/Block templating engine.
+
+  - Run the following command to create a new FSE/Block template theme:-
+  
      ``` composer create-project maratib/wp-theme my-theme ```   
 
     [Read more ->](/wp-theme/)
   </Card>
-  {/* <Card title="Configure your site" icon="setting">
-    Edit your `sidebar` and other config in `astro.config.mjs`.
-  </Card> */}
-  {/* <Card title="Read the docs" icon="open-book">
-    Learn more in [the Starlight Docs](https://starlight.astro.build/).
-  </Card> */}
+
+  <Card title="WP-Plugin" icon="add-document">
+
+  This will help you to create a WordPress plugin with best practices.
+  - Coming soon... 
+  
+  </Card>
+  
 </CardGrid>
