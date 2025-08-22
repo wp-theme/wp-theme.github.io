@@ -11,7 +11,7 @@ export default defineConfig({
   site,
   integrations: [
     starlight({
-      title: "wp-theme",
+      title: "WP-Theme",
       logo: {
         src: "./src/assets/themes.svg",
         alt: "Liferay Studio",
