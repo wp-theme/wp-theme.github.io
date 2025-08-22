@@ -14,7 +14,7 @@ export default defineConfig({
       title: "WP-Theme",
       logo: {
         src: "./src/assets/themes.svg",
-        alt: "Liferay Studio",
+        alt: "WP-Theme",
       },
       social: [
         {
