@@ -10,7 +10,7 @@ Create wordpress themes using blade templates
 ### Installation
 
 ```php
-composer require maratib/wp-blade
+composer create-project maratib/wp-blade my-theme
 ```
 
 ### Github Repository
