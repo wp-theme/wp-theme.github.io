@@ -1,9 +1,9 @@
 ---
 title: WP-Theme
-description: use blade templating for developing wordpress themes
+description: use FSE/Block templating for developing wordpress themes
 ---
 
-Create wordpress themes using blade templates
+Create wordpress themes using FSE/Block templates
 
 ## Quick start
 
